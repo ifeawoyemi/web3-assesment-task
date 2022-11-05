@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(228, 90, 90);
+    background-color: rgb(151, 137, 137);
     overflow: hidden;
 }
 
@@ -43,7 +43,7 @@ h2{
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 0px 15rem;
+  padding: 0px 20rem;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -57,7 +57,7 @@ h2{
   border-radius: 3px 0 0 3px;
 }
 
-#add{
+i{
     color: #f2f2f2;
     position: absolute;
     top: 24%;
@@ -75,20 +75,14 @@ p{
     cursor: pointer;
 
 }
-h4{
-    color: #f2f2f2;
-    position: absolute;
-    bottom: 16%;
-    left: 45%;
-    width: 100%; 
-}
 
-#price{
-    color: #f2f2f2;
+.info{
+  color: #f2f2f2;
     position: absolute;
     top: 85%;
     left: 48%;
-    width: 100%; 
+    width: 100%;
 }
+
 
 

@@ -1,10 +1,17 @@
-let count = 0;
+// let count = 0;
 
-document.getElementById("add").onclick = function(){
-    count+=1;
-    document.getElementById("countLabel").innerHTML = count;
-    document.getElementById("price").innerHTML = count;
+// document.getElementById("add").onclick = function(){
+//     count+=1;
+//     document.getElementById("countLabel").innerHTML = count;
+//     document.getElementById("price").innerHTML = count;
+// }
+
+function addLike(e){
+  let count = Number(e.nextElementSibling.innerText) + 1;
+  e.nextElementSibling.innerText = count;
 }
+
+
 
 let slideIndex = 1;
 showSlides(slideIndex);
